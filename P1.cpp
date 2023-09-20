@@ -22,9 +22,5 @@ int main () {
         cout << "Invalid age entered.\n"; 
     }
 
-    return 0;
-
-
-
     
 }
