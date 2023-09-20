@@ -11,15 +11,15 @@ int main () {
         cin >> age;
 
   if (age >= 0 && age <= 12) {
-        std::cout << "You are a child." << std::endl;
+        std::cout << "You are a child.\n";
     } else if (age >= 13 && age <= 19) {
-        std::cout << "You are a teenager." << std::endl;
+        std::cout << "You are a teenager.\n";
     } else if (age >= 20 && age <= 64) {
-        std::cout << "You are an adult." << std::endl;
+        std::cout << "You are an adult.\n";
     } else if (age >= 65) {
-        std::cout << "You are a senior." << std::endl;
+        std::cout << "You are a senior.\n"; 
     } else {
-        std::cout << "Invalid age entered." << std::endl;
+        std::cout << "Invalid age entered." 
     }
 
     return 0;
