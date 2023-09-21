@@ -10,8 +10,8 @@ int main () {
     double rateAdditionalUnits = 0.15; // Rate for additional units
     double unitsConsumed;
 
-    std::cout << "Enter the number of units consumed: ";
-    std::cin >> unitsConsumed;
+    cout << "Enter the number of units consumed: ";
+    cin >> unitsConsumed;
 
     if (unitsConsumed >= 0) {
         double totalCharge;
@@ -27,8 +27,8 @@ int main () {
             totalCharge += (unitsConsumed - 100) * rateAdditionalUnits;
         }
 
-        // Display the electricity charge
-            cout << "Electricity charge: $" << totalCharge << std::endl;
+        // Display charge
+            cout << "Electricity charge: $" << totalCharge << "/n";
     } else {
             cout << "Invalid input.\n"; 
     }
