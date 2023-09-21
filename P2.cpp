@@ -10,14 +10,13 @@ int main () {
     double rateAdditionalUnits = 0.15; // Rate for additional units
     double unitsConsumed;
 
-    // Prompt the user for the number of units consumed
     std::cout << "Enter the number of units consumed: ";
     std::cin >> unitsConsumed;
 
     if (unitsConsumed >= 0) {
         double totalCharge;
 
-        // Calculate the electricity charge
+        
         if (unitsConsumed <= 100) {
             totalCharge = unitsConsumed * rateFirst100Units;
         } else {
