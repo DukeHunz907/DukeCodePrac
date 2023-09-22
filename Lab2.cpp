@@ -4,8 +4,9 @@
 using namespace std;
 
 int main () {
-    int x;
+    int sum = 0;
     
+
 
 
 
