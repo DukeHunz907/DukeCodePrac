@@ -1,4 +1,4 @@
-// write a program that prints 1 to 10
+// write a program that prints 10 to 1
 
 
 #include <iostream>
