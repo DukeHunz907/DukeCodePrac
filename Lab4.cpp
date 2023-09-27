@@ -4,16 +4,14 @@
 #include <iostream>
 using namespace std;
 int main () {
-   cout << "number of items/n";
-   cin >> item;
-   cout << "price of items/n"
-    
-    while () {
-
-
-
-        
-    }
+int item;
+cin << item;
+int price = 1;
+ cout "enter item/n";
+    while (price and item) {
+     cout << price and item << "/n";
+     price++;
+}
 
 }
 
