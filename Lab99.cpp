@@ -4,7 +4,18 @@
 using namespace std;
 
 int main () {
-    int 
+    int counter = 1;
+    int total = 0;
+    
+    while (counter <= 15) {
+        int square = counter * counter;
+        total = total + counter * counter
+        counter++;
+
+
+
+
+    }
 
 
 
