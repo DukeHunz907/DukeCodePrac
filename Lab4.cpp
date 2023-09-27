@@ -10,7 +10,7 @@ int price = 1;
  cout "enter item/n";
     while (price and item) {
      cout << price and item << "/n";
-     price + item = 
+     price + item = item;
 }
 
 }
