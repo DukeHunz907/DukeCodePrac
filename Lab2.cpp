@@ -10,12 +10,12 @@ int main () {
    
    
    
-   
+    
     int sum = 0; //int total =0;
     int c = 1;
     while (c <= 50) {
         if (c % 2 == 0) {
-        total = total + c;
+        cout << sum = sum + c << "/n"; <<
         c++;
  }
        
