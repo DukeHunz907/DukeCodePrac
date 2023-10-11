@@ -6,7 +6,7 @@ int main() {
     string s1, s2;
     getline(cin, s1);
     getline(cin, s2);
-    string r = "";
+    string r = " ";
     int i = 0;
     while(i < s1.length() and i < s2.length()) {
         r = s1[i], s2[i] + r;
