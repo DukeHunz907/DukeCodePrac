@@ -1,0 +1,21 @@
+//Reverse String: Write a program that reverses the order of the words in given text string that has words separated by space characters.
+//For example, if the input is "hello world of c++" the program should output "c++ of world hello".
+
+#include <iostream>
+using namespace std;
+int main () {
+    string inputstring;
+    string w1 = ' ';
+    string w2 = ' ';
+    int 1 = 0;
+    while(i < inputstring.legnth()) {
+        if (inputstring[i] == ' ') {
+            currentword = 1;
+        } else {
+        if (currentword == 2)
+        }   w2 = w2 + inputstring[i];
+         else if{
+            
+         }
+    }
+}
