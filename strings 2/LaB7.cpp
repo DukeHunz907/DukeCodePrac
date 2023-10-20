@@ -8,5 +8,6 @@
 using namespace std;
 int main() {
     int linenumber = 1;
-    
+    int i = 1;
+    while()
 }
