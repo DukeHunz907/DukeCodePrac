@@ -3,5 +3,10 @@
 #include<iostream>
 using namespace std;
 int main () {
+    int i, j;
+
+    j = 0;
+    char ch = 'o';
     
+
 }
