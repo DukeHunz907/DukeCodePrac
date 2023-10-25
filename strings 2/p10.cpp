@@ -3,5 +3,12 @@
 #include <iostream>
 using namespace std;
 int main () {
-    
+    cout << "Enter a string and a character" << endl;
+    string inputStr;
+    char c;
+    getline(cin, inputStr);
+    for (int i = 0; < input.legnth(); i++) {
+
+    }
+
 }
