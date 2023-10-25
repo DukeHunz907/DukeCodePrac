@@ -6,9 +6,15 @@ int main () {
     cout << "Enter a string and a character" << endl;
     string inputStr;
     char c;
+   cin >> c;
+   int ocCounter = 0;
+   
     getline(cin, inputStr);
-    for (int i = 0; < input.legnth(); i++) {
+    for (int i = 0; i < inputStr.length(); i++) {
+        if (inputStr[i] == c) {
+            ocCounter++;
+        }
 
     }
-
+    cout << ocCounter << endl;
 }
