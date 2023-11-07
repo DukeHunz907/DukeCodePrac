@@ -6,7 +6,7 @@ using namespace std;
 int main () {
     string x;
     string y;
-    cin >> x; >> y;
+    cin >> x; > y;
     y + x
     cout << y << endl;
     

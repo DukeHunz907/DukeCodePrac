@@ -8,7 +8,7 @@ int main () {
 string name;
 cout << "Enter your name:";
 cin >> name;
-
+cout << endl << endl;
 
 
 
