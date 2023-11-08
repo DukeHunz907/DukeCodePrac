@@ -5,8 +5,13 @@
 using namespace std;
 int main() {
     cout << "Enter a string: ";
-    string s1;
-     cin >> s1;
-    for()
+    string s;
+    getline(cin, s);
+    int i = 0, j = s.length() - 1;
+    while (i < j) {
+        if (s[i] != s[j]) {
+            ispal = false;
+        }
+    }
 
 }
