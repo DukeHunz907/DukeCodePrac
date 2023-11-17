@@ -9,5 +9,6 @@ using namespace std;
 int main(){
     vector<int>numbers;
     int num;
+    cin >> num;
     
 }
